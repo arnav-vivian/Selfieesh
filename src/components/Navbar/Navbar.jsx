@@ -8,7 +8,7 @@ const Navbar = () => {
     return (
         <>
             <nav className="bg-gray-100">
-                <div className="bg-gray-100 text-black  items-center md:justify-between py-3 px-7 drop-shadow-sm hidden md:flex">
+                <div className="bg-gray-100 text-black  items-center md:justify-between py-3 px-7 drop-shadow-sm hidden md:flex text-xs">
                     <div className="flex items-center justify-start px-3 text-[10px] ">
                         <p>heloo@gmail.com</p>
                         <p className=" px-1">|</p>
@@ -79,7 +79,7 @@ const Navbar = () => {
                             `}
                     >
                         <li>
-                            <Link to="/" className="py-7 px-3 inline-block">
+                            <Link to="/" className="py-7 px-3 inline-block text-sm">
                                 Home
                             </Link>
                         </li>
